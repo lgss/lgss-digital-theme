@@ -52,7 +52,7 @@
 /* local styleguide includes */
 /* Old depricated greys, new things should use the toolkit greys */
 html, body, button, input, table, td, th {
-  font-family: "nta", Arial, sans-serif; }
+  font-family: "PT Sans", Arial, sans-serif; }
 
 html, body, div, h1, h2, h3, h4, h5, h6, article, aside, footer, header, hgroup, nav, section {
   margin: 0;
@@ -108,7 +108,7 @@ fieldset {
   padding: 0; }
 
 a:link {
-  color: #005ea5; }
+  color: #0077cc; }
 
 a:visited {
   color: #4c2c92; }
@@ -305,10 +305,10 @@ button:focus,
   width: device-width; }
 
 #global-header {
-  background-color: #0b0c0c;
+  background-color: #000A32;
   width: 100%; }
   #global-header .header-wrapper {
-    background-color: #0b0c0c;
+    background-color: #000A32;
     max-width: 990px;
     margin: 0 auto;
     padding-top: 8px;
@@ -351,7 +351,7 @@ button:focus,
     overflow: visible;
     vertical-align: baseline;
     color: white;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 30px;
     line-height: 1em;
     text-decoration: none;
@@ -380,7 +380,7 @@ button:focus,
       #global-header .header-proposition {
         padding-top: 0; } }
     #global-header .header-proposition #proposition-name {
-      font-family: "nta", Arial, sans-serif;
+      font-family: "PT Sans", Arial, sans-serif;
       font-size: 24px;
       line-height: 1.25;
       font-weight: 400;
@@ -395,7 +395,7 @@ button:focus,
     #global-header .header-proposition a#proposition-name:hover {
       text-decoration: underline; }
     #global-header .header-proposition a.menu {
-      font-family: "nta", Arial, sans-serif;
+      font-family: "PT Sans", Arial, sans-serif;
       font-size: 16px;
       line-height: 1.25;
       font-weight: 400;
@@ -455,7 +455,7 @@ button:focus,
         #global-header .header-proposition #proposition-links li a {
           color: white;
           text-decoration: none;
-          font-family: "nta", Arial, sans-serif;
+          font-family: "PT Sans", Arial, sans-serif;
           font-size: 14px;
           line-height: 1.42857;
           font-weight: 700;
@@ -466,7 +466,7 @@ button:focus,
               line-height: 1.25; } }
           @media (min-width: 769px) {
             #global-header .header-proposition #proposition-links li a {
-              font-family: "nta", Arial, sans-serif;
+              font-family: "PT Sans", Arial, sans-serif;
               font-size: 16px;
               line-height: 1.25;
               font-weight: 700;
@@ -497,7 +497,7 @@ button:focus,
         padding-right: 30px; } }
   #global-header-bar .header-bar {
     height: 10px;
-    background-color: #005ea5; }
+    background-color: #0077cc; }
 
 /* Global cookie message */
 .js-enabled #global-cookie-message {
@@ -520,7 +520,7 @@ button:focus,
         padding-left: 30px;
         padding-right: 30px; } }
   #global-cookie-message p {
-    font-family: "nta", Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 16px;
     line-height: 1.25;
     font-weight: 400;
@@ -533,30 +533,30 @@ button:focus,
 
 /* Global footer */
 #footer {
-  background-color: #dee0e2;
-  border-top: 1px solid #a1acb2; }
+  background-color:#242E35;
+  border-top: 1px solid #0D1316; }
   #footer .footer-wrapper {
     margin: 0 auto;
     width: auto;
     max-width: 1020px;
     padding-top: 20px;
-    background-color: #dee0e2;
+    background-color: #242E35;
     margin: 0 auto; }
     @media (min-width: 641px) {
       #footer .footer-wrapper {
-        padding-top: 60px; } }
+        padding-top: 0px; } }
   #footer a {
-    color: #454a4c; }
+    color: #fefefe; }
     #footer a:hover {
-      color: #171819; }
+      color: #fff; }
   #footer h2 {
-    font-family: "nta", Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 24px;
     line-height: 1.25;
     font-weight: 400;
     text-transform: none;
     font-weight: bold;
-    color: #171819;
+    color: #fefefe;
     margin: 0; }
     @media (max-width: 640px) {
       #footer h2 {
@@ -570,7 +570,7 @@ button:focus,
     padding-bottom: 60px;
     clear: both;
     font-size: 0;
-    color: #454a4c; }
+    color: #fefefe; }
     @media (min-width: 641px) {
       #footer .footer-meta {
         padding-left: 30px;
@@ -583,7 +583,7 @@ button:focus,
         #footer .footer-meta .footer-meta-inner {
           width: 75%; } }
       #footer .footer-meta .footer-meta-inner ul {
-        font-family: "nta", Arial, sans-serif;
+        font-family: "PT Sans", Arial, sans-serif;
         font-size: 16px;
         line-height: 1.5;
         font-weight: 400;
@@ -630,7 +630,7 @@ button:focus,
                 background-image: url(images/open-government-licence_2x.png?0.10.0);
                 background-size: 41px 17px; } }
         #footer .footer-meta .footer-meta-inner .open-government-licence p {
-          font-family: "nta", Arial, sans-serif;
+          font-family: "PT Sans", Arial, sans-serif;
           font-size: 16px;
           line-height: 1.25;
           font-weight: 400;
@@ -642,7 +642,7 @@ button:focus,
               font-size: 14px;
               line-height: 1.14286; } }
     #footer .footer-meta .copyright {
-      font-family: "nta", Arial, sans-serif;
+      font-family: "PT Sans", Arial, sans-serif;
       font-size: 16px;
       line-height: 1.25;
       font-weight: 400;
@@ -659,7 +659,6 @@ button:focus,
           display: inline-block;
           text-align: inherit;
           width: 25%;
-          padding-top: 15px;
           margin-top: 0; } }
       #footer .footer-meta .copyright a {
         display: block;
@@ -674,7 +673,7 @@ button:focus,
             background-position: 100% 0%; } }
         @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
           #footer .footer-meta .copyright a {
-            background-image: url(images/govuk-crest-2x.png?0.10.0);
+            background-image: url(images/-2x.png?0.10.0);
             background-size: 125px 102px; } }
         @media (min-width: 641px) {
           #footer .footer-meta .copyright a {
