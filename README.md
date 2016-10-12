@@ -8,7 +8,7 @@ This is the theme in use for the blogs hosted at blog.gov.uk, tweaked by LGSS fo
 Clone the theme:
 
     % cd wp-content/themes
-    % git clone https://github.com/lgss/lgss-digital-blogs.git
+    % git clone https://github.com/lgss/lgss-digital-theme.git
 
 This will give you a functioning theme, but if you want to hack on it there are assets that need compiling. See the [Development](#development) section.
 
