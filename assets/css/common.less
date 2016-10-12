@@ -1,5 +1,5 @@
 body {
-  font-family: 'nta', 'helvetica', 'arial';
+  font-family: 'PT Sans', 'helvetica', 'arial';
   @media (max-width: @mobileMaxWidth) {
     padding-right: 0;
     padding-left: 0;
@@ -408,10 +408,19 @@ sup {
   input.search-query {
     border-color: @greyText;
     border-radius: 0;
-    width: 90%;
+    width: 96%;
     position: absolute;
     color: @greyText;
     -webkit-appearance: none;
+    padding-left: 4px;
+    padding-right: 4px;
+
+    &:focus {
+      outline: 3px solid @highlight;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
 
     .lte-ie6 & {
       position: static;
@@ -438,6 +447,7 @@ sup {
     height: 20px;
     box-shadow: none;
     background: url('../assets/img/search.png') no-repeat center center #fff;
+    border: none; /* ensure no border is picked up from elsewhere */
     background-size: 18px 18px;
     text-indent: -10000px;
     position: absolute;
@@ -516,16 +526,18 @@ sup {
       font-size: 16px;
       .font-size(1.6rem, 1.6rem, 1.6rem);
       line-height: 28px;
+      color: @ncc;
       &:before {
-        background: @blueDark;
+        background: @ncc;
         padding: 5px;
         text-align: center;
         color: #fff;
         .font-size(18px, 18px, 18px);
+        vertical-align: middle;
       }
       &:hover, &:focus {
         &:before {
-          background: darken(@blueDark, 10%);
+          background: darken(@ncc, 10%);
         }
       }
 
@@ -648,7 +660,7 @@ sup {
 }
 
 .bar {
-  border-top: 10px solid #57da95;
+  border-top: 3px solid #57da95;
   @media screen and (max-width: @tabletMaxWidth) {
     margin: 0 auto;
   }

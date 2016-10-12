@@ -1,10 +1,13 @@
+// import fonts from Google
+@import 'https://fonts.googleapis.com/css?family=PT+Sans:400,700';
+
 html {
   font-size: 62.5%;
   -webkit-font-smoothing: antialiased;
 }
 
 body {
-  font-family: "nta", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   .font-size(1.9rem, 1.9rem, 1.3rem);
   font-size: 19px;
   .line-height(2.6rem, 2.6rem, 2rem);
@@ -92,12 +95,12 @@ cite {
 }
 
 a, a:visited {
-  color: #2e3191;
+  color: darken(@lgssPrimary, 10%);
 }
 
 a:hover {
   text-decoration: underline;
-  color: #2e3191;
+  color: darken(@lgssPrimary, 10%);
 }
 
 h1 {

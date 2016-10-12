@@ -1,6 +1,6 @@
-# GOV.UK Blogs
+# LGSS Digital blog
 
-This is the theme in use for the blogs hosted at blog.gov.uk. It is currently in beta.
+This is the theme in use for the blogs hosted at blog.gov.uk, tweaked by LGSS for use by the LGSS Digital Service.
 
 
 ## Installation
