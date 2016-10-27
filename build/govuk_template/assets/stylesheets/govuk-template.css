@@ -678,3 +678,11 @@ button:focus,
         @media (min-width: 641px) {
           #footer .footer-meta .copyright a {
             text-align: right; } }
+
+.js-enabled .header-global .main-menu #menu-new-menu {
+       display: none; }
+       @media (min-width: 769px) {
+         .js-enabled .header-global .main-menu #menu-new-menu {
+           display: block; } }
+       .js-enabled .header-global .main-menu #menu-new-menu.js-visible {
+         display: block; }

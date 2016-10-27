@@ -43,3 +43,8 @@ require(__DIR__.'/lib/disable-wptexturize.php');
 require(__DIR__.'/lib/co-authors-plus.php');
 
 (new \Dxw\Iguana\Extras\UseAtom())->register();
+
+function register_my_menu() {
+  register_nav_menu('new_menu',__( 'new_menu' ));
+}
+add_action( 'init', 'register_my_menu' );

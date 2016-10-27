@@ -17,4 +17,5 @@ echo $template->render([
   'content' => \Missing\Strings::getOutput(function () { get_template_part('templates/base'); }),
   'footerSupportLinks' => \Missing\Strings::getOutput(function () { get_template_part('templates/footer'); }),
   'bodyEnd' => \Missing\Strings::getOutput('wp_footer'),
+  'mainMenu' => \Missing\Strings::getOutput(function () { get_template_part('templates/main-menu'); })
 ]);
