@@ -679,10 +679,10 @@ button:focus,
           #footer .footer-meta .copyright a {
             text-align: right; } }
 
-.js-enabled .header-global .main-menu #menu-new-menu {
+.js-enabled .header-global .main-menu ul {
        display: none; }
        @media (min-width: 769px) {
-         .js-enabled .header-global .main-menu #menu-new-menu {
+         .js-enabled .header-global .main-menu ul {
            display: block; } }
-       .js-enabled .header-global .main-menu #menu-new-menu.js-visible {
+       .js-enabled .header-global .main-menu ul.js-visible {
          display: block; }
